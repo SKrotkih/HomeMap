@@ -31,6 +31,7 @@
 		7F34C90F209650470076AACA /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F34C90D209650470076AACA /* Crashlytics.framework */; };
 		7F381E092098C79000095FD9 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F381E082098C79000095FD9 /* Assets.scnassets */; };
 		7F3B2FAC209F24B200FA5D02 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B2FAB209F24B200FA5D02 /* ChartModel.swift */; };
+		7F3C0D5D218EB73200A6E248 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7F3C0D5C218EB73200A6E248 /* README.md */; };
 		7F3E4DC5209C13900007102D /* UIAlertController+Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E4DC4209C13900007102D /* UIAlertController+Dismiss.swift */; };
 		7F4154F120A0D99600672889 /* WallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4154F020A0D99500672889 /* WallNode.swift */; };
 		7F6D8527209C86990063505E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D8526209C86990063505E /* MainViewController.swift */; };
@@ -76,6 +77,7 @@
 		7F34C90D209650470076AACA /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		7F381E082098C79000095FD9 /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
 		7F3B2FAB209F24B200FA5D02 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		7F3C0D5C218EB73200A6E248 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		7F3E4DC4209C13900007102D /* UIAlertController+Dismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Dismiss.swift"; sourceTree = "<group>"; };
 		7F4154F020A0D99500672889 /* WallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallNode.swift; sourceTree = "<group>"; };
 		7F6D8526209C86990063505E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		7F0656B1209C462200C793BD /* Recources */ = {
 			isa = PBXGroup;
 			children = (
+				7F3C0D5C218EB73200A6E248 /* README.md */,
 				21507ACA1F013BE1000EE9D7 /* LaunchScreen.storyboard */,
 				21507AC51F013BE1000EE9D7 /* Main.storyboard */,
 				7F381E082098C79000095FD9 /* Assets.scnassets */,
@@ -338,6 +341,7 @@
 				3F24E68F1F091ADA00E11D67 /* Models.scnassets in Resources */,
 				7F32226A20A597A9002C929A /* ChartView.xib in Resources */,
 				21507AC91F013BE1000EE9D7 /* Assets.xcassets in Resources */,
+				7F3C0D5D218EB73200A6E248 /* README.md in Resources */,
 				21507AC71F013BE1000EE9D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

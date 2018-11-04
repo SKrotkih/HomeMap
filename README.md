@@ -1,29 +1,21 @@
-# README #
+# HomeMap #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+HomeMap is an iOS example app with using ARKit.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Aim the app is to make 3D apartment plan. You put markers on the apartment angles. Then the app makes the plan with the dimension in centimeters on sides and makes walls.
+* 1.0.1
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* clone or unzip the repository. 
+* go to the root folder. 
+* launch
 
-### Contribution guidelines ###
+pod install
 
-* Writing tests
-* Code review
-* Other guidelines
+* open HomeMap.xcworkspace
 
-### Who do I talk to? ###
+* run the app.
 
-* Repo owner or admin
-* Other community or team contact
