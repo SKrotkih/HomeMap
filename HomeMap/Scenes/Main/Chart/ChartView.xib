@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoThumbView" customModule="HomeMap" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChartView" customModule="HomeMap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YkV-K5-fv4">
+                    <rect key="frame" x="0.0" y="0.0" width="198" height="199"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </sceneKitView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_drop_down" translatesAutoresizingMaskIntoConstraints="NO" id="J87-vg-oPx">
+                    <rect key="frame" x="0.0" y="199" width="198" height="25"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="5Gk-75-Yg7"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="J87-vg-oPx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9h5-0w-bpj"/>
+                <constraint firstItem="YkV-K5-fv4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BEc-jZ-atK"/>
+                <constraint firstItem="YkV-K5-fv4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Uaj-2M-le0"/>
+                <constraint firstItem="J87-vg-oPx" firstAttribute="top" secondItem="YkV-K5-fv4" secondAttribute="bottom" id="X0f-ZK-xoz"/>
+                <constraint firstAttribute="bottom" secondItem="J87-vg-oPx" secondAttribute="bottom" id="b5g-l5-Z0a"/>
+                <constraint firstAttribute="trailing" secondItem="J87-vg-oPx" secondAttribute="trailing" id="ev7-mw-HLh"/>
+                <constraint firstAttribute="trailing" secondItem="YkV-K5-fv4" secondAttribute="trailing" id="pM8-DG-WJM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="previewResizeButtonImageView" destination="J87-vg-oPx" id="Bg8-Ns-sHI"/>
+                <outlet property="previewSceneView" destination="YkV-K5-fv4" id="2qS-Fg-WId"/>
+            </connections>
+            <point key="canvasLocation" x="-163" y="-76"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_drop_down" width="20" height="17"/>
+    </resources>
+</document>
